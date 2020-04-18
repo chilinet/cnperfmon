@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b0a698d-287a-423e-b75a-fd427ef1c0ec" name="Default" comment="Initial">
+      <change afterPath="$PROJECT_DIR$/.idea/cnperfmon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/install/cnperfmon(1).sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/install/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/install/dbuser.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/config/install/setupdb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/inventory/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/inventory/getcmd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/inventory/gethostid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/inventory/keepalive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/objects/inventory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/objects/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/objects/results.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/product/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/product/read.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/product/read_one.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/product/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/reporting/allresults.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/reporting/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/results/push.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnperfmon.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="56" />
+    <option name="width" value="1440" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectId" id="1afXblJthTQPo9a1gu6dQlABF7r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration name="allresults.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/api/reporting/allresults.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.allresults.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b0a698d-287a-423e-b75a-fd427ef1c0ec" name="Default" comment="" />
+      <created>1587125947160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587125947160</updated>
+      <workItem from="1587125949860" duration="1339000" />
+      <workItem from="1587204198767" duration="1345000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1587205354500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587205354500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="299" y="120" key="#CLI_Interpreters" timestamp="1587205202539">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="299" y="120" key="#CLI_Interpreters/0.23.1440.827@0.23.1440.827" timestamp="1587205202539" />
+    <state x="398" y="159" key="#allresults.php" timestamp="1587205162828">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="398" y="159" key="#allresults.php/0.23.1440.827@0.23.1440.827" timestamp="1587205162828" />
+    <state x="398" y="160" key="#allresults.php/0.23.1440.835@0.23.1440.835" timestamp="1587191521964" />
+    <state x="176" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587205215671">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="176" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827@0.23.1440.827" timestamp="1587205215671" />
+    <state x="90" y="23" key="CommitChangelistDialog2" timestamp="1587205354218">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="90" y="23" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1587205354218" />
+    <state x="213" y="97" key="SettingsEditor" timestamp="1587190157550">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="213" y="97" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1587190157550" />
+    <state x="213" y="97" key="SettingsEditor/0.23.1440.836@0.23.1440.836" timestamp="1587127739212" />
+    <state x="312" y="198" key="Vcs.Push.Dialog.v2" timestamp="1587205560537">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="312" y="198" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1587205560537" />
+    <state x="312" y="198" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1587205331987" />
+    <state x="468" y="339" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1587190141061">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="468" y="339" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1440.835@0.23.1440.835" timestamp="1587190141061" />
+  </component>
+</project>
