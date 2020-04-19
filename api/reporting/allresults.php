@@ -28,26 +28,52 @@ if($num>0){
         extract($row);
 
         $Obj = json_decode($result, true);
-        var_dump($Obj);
+        //var_dump($Obj);
 
- //       $reporting_item=array(
- //           "id" => $id,
- //           "sort" => $sort,
- //           "cmdid" => $cmdid,
- //           "cmdtype" => $cmdtype,
- //           "command" => $command,
- //           "result" => $result,
- //           "cmd_dttm" => $cmd_dttm
- //       );
+        if (strpos($result, 'error') == 0) {
 
- //       array_push($products_arr["records"], $product_item);
+        $localhost = $Obj["start"]["connected"][0]["local_host"];
+        $remotehost = $Obj["start"]["connecting_to"]["host"];
+        $remoteport = $Obj["start"]["connecting_to"]["port"];
+
+        $version = $Obj["start"]["version"];
+        $system_info = $Obj["start"]["system_info"];
+        $timestamp = $Obj["start"]["timestamp"]["time"];
+        //echo date('Y-m-d H:i:s',strtotime($timestamp) ). PHP_EOL;
+
+        $send_bytes = $Obj["end"]["streams"][0]["sender"]["bytes"];
+        $send_bitsec = $Obj["end"]["streams"][0]["sender"]["bits_per_second"];
+        $received_bytes = $Obj["end"]["streams"][0]["receiver"]["bytes"];
+        $received_bitsec = $Obj["end"]["streams"][0]["receiver"]["bits_per_second"];
+
+        $reporting->id = $id;
+        $reporting->sort = $sort;
+        $reporting->cmdid = $cmdid;
+        $reporting->localhost = $localhost;
+        $reporting->remotehost = $remotehost;
+        $reporting->remoteport = $remoteport;
+        $reporting->send_bytes = floatval($send_bytes);
+        $reporting->send_bitsec = floatval($send_bitsec);
+        $reporting->received_bytes = floatval($received_bytes);
+        $reporting->received_bitsec = floatval($received_bitsec);
+        $reporting->version = $version;
+        $reporting->system_info = $system_info;
+        $reporting->timestamp = date('Y-m-d H:i:s',strtotime($timestamp) );
+
+        if ($reporting->insertresult()) {
+            $reporting->setarchiv();
+        //    echo "Okay";
+        } else {
+        //    echo "Nicht okay";
+
+        }
+        } else {
+            $reporting->id = $id;
+            $reporting->sort = $sort;
+            $reporting->cmdid = $cmdid;
+            $reporting->setarchiv();
+        }
     }
-
-    // set response code - 200 OK
- //   http_response_code(200);
-
-    // show products data in json format
- //   echo json_encode($products_arr);
 }
 
 else{

@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0a698d-287a-423e-b75a-fd427ef1c0ec" name="Default" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/.idea/cnperfmon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/install/cnperfmon(1).sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/install/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/install/dbuser.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/install/setupdb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inventory/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inventory/getcmd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inventory/gethostid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/inventory/keepalive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/objects/inventory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/objects/product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/objects/results.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/product/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/product/read.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/product/read_one.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/product/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/reporting/allresults.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/reporting/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/results/push.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnperfmon.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/objects/reporting.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/objects/reporting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/reporting/allresults.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/reporting/allresults.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="56" />
-    <option name="width" value="1440" />
-    <option name="height" value="804" />
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1afXblJthTQPo9a1gu6dQlABF7r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,8 +25,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunManager">
@@ -108,6 +85,7 @@
       <updated>1587125947160</updated>
       <workItem from="1587125949860" duration="1339000" />
       <workItem from="1587204198767" duration="1345000" />
+      <workItem from="1587220938811" duration="18249000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1587205354500</created>
@@ -128,13 +106,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="120" key="#CLI_Interpreters" timestamp="1587205202539">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="399" y="122" key="#CLI_Interpreters" timestamp="1587234719588">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="399" y="122" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1587234719588" />
     <state x="299" y="120" key="#CLI_Interpreters/0.23.1440.827@0.23.1440.827" timestamp="1587205202539" />
-    <state x="398" y="159" key="#allresults.php" timestamp="1587205162828">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="529" y="132" key="#PHP" timestamp="1587234728027">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="529" y="132" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1587234728027" />
+    <state x="531" y="171" key="#allresults.php" timestamp="1587234730192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="531" y="171" key="#allresults.php/0.0.1920.1040@0.0.1920.1040" timestamp="1587234730192" />
     <state x="398" y="159" key="#allresults.php/0.23.1440.827@0.23.1440.827" timestamp="1587205162828" />
     <state x="398" y="160" key="#allresults.php/0.23.1440.835@0.23.1440.835" timestamp="1587191521964" />
     <state x="176" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587205215671">
@@ -145,6 +129,46 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="90" y="23" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1587205354218" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587291360353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587291360353" />
+    <state width="1340" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587239024676" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587291360353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587291360353" />
+    <state width="1340" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587239024676" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587291360353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587291360353" />
+    <state width="1340" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587239024676" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587291360353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587291360353" />
+    <state width="1340" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587239024676" />
+    <state width="976" height="307" key="GridCell.Tab.1.bottom" timestamp="1587275781564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="976" height="307" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587275781564" />
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587239024568" />
+    <state width="976" height="307" key="GridCell.Tab.1.center" timestamp="1587275781564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="976" height="307" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587275781564" />
+    <state width="1340" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587239024568" />
+    <state width="976" height="307" key="GridCell.Tab.1.left" timestamp="1587275781564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="976" height="307" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587275781564" />
+    <state width="1340" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587239024568" />
+    <state width="976" height="307" key="GridCell.Tab.1.right" timestamp="1587275781564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="976" height="307" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587275781564" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587239024568" />
     <state x="213" y="97" key="SettingsEditor" timestamp="1587190157550">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
@@ -159,5 +183,9 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="468" y="339" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1440.835@0.23.1440.835" timestamp="1587190141061" />
+    <state x="174" y="152" key="search.everywhere.popup" timestamp="1587275665624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="174" y="152" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587275665624" />
   </component>
 </project>
