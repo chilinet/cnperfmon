@@ -130,5 +130,40 @@ class Reporting{
             return false;
         }
 
+        function listall() {
+            $query = "SELECT
+                      p.id, 
+                      p.sort, 
+                      p.cmdid, 
+                      p.localhost, 
+                      p.remotehost, 
+                      p.remoteport,
+                      p.version,
+                      p.system_info,
+                      p.send_bytes,
+                      p.received_bytes,
+                      p.send_bitsec,
+                      p.received_bitsec,
+                      p.timestamp 
+                    FROM " . $this->table_name . " p
+                 ORDER BY
+                     p.timestamp";
+
+            // prepare query statement
+            $stmt = $this->conn->prepare($query);
+
+            // execute query
+            //$stmt->execute();
+            if($stmt->execute()){
+                return $stmt;
+            } else {
+                $errors = $stmt->errorInfo();
+                echo($errors[2]);
+            }
+
+            return $stmt;
+
+        }
+
 }
 ?>
